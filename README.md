@@ -1,2 +1,2 @@
 # roboshop-shell
-This repo is used for roboshop-shell devops tasks automation
+This repository is used for roboshop-shell devops tasks automations.
