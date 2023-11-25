@@ -27,4 +27,4 @@ cp /home/centos/roboshop-shell/dispatch.service /etc/systemd/system/dispatch.ser
 echo -e "\e[33mReLoad Enable and Restart the services\e[0m"
 systemctl daemon-reload &>>/tmp/roboshop.log
 systemctl enable dispatch &>>/tmp/roboshop.log
-systemctl start dispatch &>>/tmp/roboshop.log
+systemctl restart dispatch &>>/tmp/roboshop.log
