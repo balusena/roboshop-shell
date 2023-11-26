@@ -16,7 +16,7 @@ mkdir /app
 echo -e "\e[33mDownload the application code to created app directory\e[0m"
 curl -o /tmp/cart.zip https://roboshop-artifacts.s3.amazonaws.com/cart.zip &>>/tmp/roboshop.log
 cd /app
-unzip /tmp/cart.zip &>>/tmp/roboshop.log
+unzip /tmp/cart.zip  &>>/tmp/roboshop.log
 
 echo -e "\e[33mDownload the dependencies\e[0m"
 cd /app
