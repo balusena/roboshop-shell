@@ -14,7 +14,7 @@ echo -e "\e[33mSetup app directory\e[0m"
 mkdir /app
 
 echo -e "\e[33mDownload the application code to created app directory\e[0m"
-curl -o /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/user.zip &>>/tmp/roboshop.log
+curl -o /tmp/user.zip https://roboshop-artifacts.s3.amazonaws.com/user.zip &>>/tmp/roboshop.log
 cd /app
 unzip /tmp/user.zip &>>/tmp/roboshop.log
 
