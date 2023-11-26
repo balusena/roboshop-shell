@@ -27,7 +27,7 @@ npm install &>>/tmp/roboshop.log
 echo -e "\e[33mSetup SystemD Catalogue Service\e[0m"
 cp /home/centos/roboshop-shell/catalogue.service /etc/systemd/system/catalogue.service &>>/tmp/roboshop.log
 
-echo -e "\e[33Copy MongoDB repo file\e[0m"
+echo -e "\e[33mCopy MongoDB repo file\e[0m"
 cp /home/centos/roboshop-shell/mongodb.repo /etc/yum.repos.d/mongodb.repo &>>/tmp/roboshop.log
 
 echo -e "\e[33mInstall MongoDB Client\e[0m"
