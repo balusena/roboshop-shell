@@ -19,9 +19,9 @@ cd /app
 
 echo -e "\e[33mExtract application code to created app directory\e[0m"
 unzip /tmp/catalogue.zip &>>/tmp/roboshop.log
+cd /app
 
 echo -e "\e[33mDownload the dependencies\e[0m"
-cd /app
 npm install &>>/tmp/roboshop.log
 
 echo -e "\e[33mSetup SystemD Catalogue Service\e[0m"
