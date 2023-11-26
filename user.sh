@@ -31,7 +31,7 @@ systemctl daemon-reload &>>/tmp/roboshop.log
 systemctl enable user &>>/tmp/roboshop.log
 systemctl restart user &>>/tmp/roboshop.log
 
-echo -e "\e[33Copy mongodb-repo file\e[0m"
+echo -e "\e[33mCopy mongodb-repo file\e[0m"
 cp /home/centos/roboshop-shell/mongodb.repo /etc/yum.repos.d/mongodb.repo &>>/tmp/roboshop.log
 
 echo -e "\e[33mInstall mongodb-client\e[0m"
