@@ -17,7 +17,7 @@ echo -e "\e[33mDownload the application code to created app directory\e[0m"
 curl -o /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/catalogue.zip &>>/tmp/roboshop.log
 cd /app
 
-echo -e "\e[33mExtract application code to created app directory\e[0m"
+echo -e "\e[33mExtract Application code to created app directory\e[0m"
 unzip /tmp/catalogue.zip &>>/tmp/roboshop.log
 cd /app
 
